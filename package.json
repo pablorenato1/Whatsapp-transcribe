@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.32.0",
+    "@aws-sdk/node-http-handler": "^3.32.0",
+    "@aws-sdk/types": "^3.32.0",
+    "aws-api-gateway-client": "^0.3.7",
+    "aws-sdk": "^2.1228.0",
+    "axios": "^1.0.0",
+    "got": "^12.5.1",
+    "got4aws": "^1.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "uuid": "^9.0.0",
+    "whatsapp-web.js": "^1.17.1"
+  },
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "Using whatsapp-api to get some responsive actions with audios",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-node app.js",
+    "dev": "nodemon"
+  },
+  "author": "Pablo Renato",
+  "license": "ISC"
+}
