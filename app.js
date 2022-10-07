@@ -52,7 +52,7 @@ client.on('message_create', async (msg)=> {
 
   let chat = await msg.getChat(); // Get in which chat de user send a message
   
-  if(chat.name == "AudioBot" || chat.name == "Aurilene(31/10)" || chat.name == "FAMILIA Cosmus" || chat.name == "Henrique" || chat.name == "Carla 💩") { // Name of the chat that i want that the API works
+  if(chat.name == "AudioBot") { // Name of the chat that i want that the API works
     //(Next Line)Verify if the message that trigged the event has media
     if(msg.hasMedia) { // This 'hasMedia' refers to Image, Audio, Video
       if(msg.type == 'audio' || msg.type == 'ptt') { //specify only Audio
